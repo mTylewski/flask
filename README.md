@@ -13,10 +13,10 @@
   
 
 - Uruchamianie applikacji:
-- 
-$ export FLASK_ENV=development
-$ export FLASK_APP=hello
-$ flask run
+
+ $ export FLASK_ENV=development
+ $ export FLASK_APP=hello
+ $ flask run
 
  
  
