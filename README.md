@@ -1,10 +1,22 @@
-# tworzymy hermetyczne środowisko dla bibliotek aplikacji:
-python3 –m venv my-venv
-lub podając konkretną wersję Pythona
-python3.8 -m venv my-env
-my-env: nazwa wirtualnego środowiska
+# Moje Flask App
 
-pip install Flask
-export FLASK_ENV=development
-flask run
 
+- W projekcie wykorzystamy virtual environment, dla utworzenia hermetycznego środowisko dla aplikacji:
+
+  ```
+  # tworzymy hermetyczne środowisko dla bibliotek aplikacji:
+  $ python -m venv .venv
+
+  # aktywowanie hermetycznego środowiska
+  $ . venv/bin/activate
+  $ pip install Flask
+  
+
+- Uruchamianie applikacji:
+- 
+$ export FLASK_ENV=development
+$ export FLASK_APP=hello
+$ flask run
+
+ 
+ 
